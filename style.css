@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+  }
+  .container {
+    border: 10px ridge #5df17d;
+    border-radius: 20px;
+    width: 400px;
+    margin-top: 5em;
+    background: linear-gradient(to top, #09203f 0%, #537895 100%);
+  }
+  .lista {
+    list-style-type: none;
+    padding: 0;
+  }
+  .lista li {
+    display: flex;
+    padding: 8px;
+  }
+  .moja .poruka {
+    background: linear-gradient(#e66465, #9198e5);
+    color: white;
+  }
+  .moja {
+    justify-content: flex-end;
+  }
+
+  .tuda .poruka {
+    background: linear-gradient(
+      to right,
+      rgb(182, 244, 146),
+      rgb(51, 139, 147)
+    );
+    color: white;
+  }
+  .poruka {
+    border-radius: 8px;
+    padding: 4px 16px;
+  }
+  .submit {
+    display: flex;
+    justify-content: center;
+  }
+  #poruka-input {
+    width: 200px;
+  }
+  .button {
+    background: linear-gradient(#430b0b, #c98a8a, #999);
+  }
